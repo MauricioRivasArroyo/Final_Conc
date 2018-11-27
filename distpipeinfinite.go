@@ -6,8 +6,8 @@ import (
 	"bufio"
 )
 
-const local 	= "10.142.232.169:8001"
-const next	= "10.142.232.185:8001"
+const local = "localhost:8060"
+const next	= "localhost:8070"
 const protocol	= "tcp"
 
 func handle(conn net.Conn, mensajes chan string) {

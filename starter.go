@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-const next	= "10.142.232.185:8001"
+const next	= "localhost:8060"
 const protocol	= "tcp"
 
 func send(remote, msg string) {
